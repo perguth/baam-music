@@ -1,0 +1,19 @@
+{
+  "name": "choo",
+  "version": "1.0.0",
+  "main": "browser.js",
+  "scripts": {
+    "create": "choo-scaffold",
+    "inspect": "bankai inspect",
+    "start": "bankai start $npm_package_main",
+    "test": "standard"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bankai": "^9.15.2"
+  },
+  "devDependencies": {
+    "choo-scaffold": "^1.2.0",
+    "standard": "^14.3.1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "baam-music",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "create": "choo-scaffold",
+    "inspect": "bankai inspect",
+    "start": "start-node && start-choo",
+    "start-node": "cd node && (yarn start &) && cd ..",
+    "start-choo": "cd choo && yarn start",
+    "test": "standard"
+  },
+  "repository": "https://github.com/perguth/baam-music.git",
+  "license": "MIT",
+  "dependencies": {
+    "bankai": "^9.15.2"
+  },
+  "devDependencies": {
+    "choo-scaffold": "^1.2.0",
+    "standard": "^14.3.1"
+  }
+}
