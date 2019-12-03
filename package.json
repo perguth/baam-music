@@ -2,10 +2,11 @@
   "name": "baam-music",
   "version": "1.0.0",
   "main": "index.js",
+  "browser": "browser.js",
   "scripts": {
     "create": "choo-scaffold",
     "inspect": "bankai inspect",
-    "start": "start-node && start-choo",
+    "start": "yarn start-node && yarn start-choo",
     "start-node": "cd node && (yarn start &) && cd ..",
     "start-choo": "cd choo && yarn start",
     "test": "standard"
